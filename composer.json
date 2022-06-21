@@ -1,0 +1,19 @@
+{
+    "name": "shuhratjon/phpmvc-freamwork",
+    "authors": [
+        {
+            "name": "shuhratjon",
+            "email": "sh_abdurasulov@uzinfocom.uz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {
+      "ext-pdo": "*",
+        "vlucas/phpdotenv": "^5.4",
+        "shuhratjon/mvc": "v1.0.1"
+    }
+}
